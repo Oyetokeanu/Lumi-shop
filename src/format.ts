@@ -1,0 +1,1 @@
+export const naira = (k: number) => "₦" + (k / 100).toLocaleString("en-NG");
